@@ -5,7 +5,12 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'lght-gray': '#e6ebf0',
+        'md-pink': '#d3436f',
+      },
+    },
   },
   variants: {
     extend: {},
