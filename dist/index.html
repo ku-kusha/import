@@ -54,6 +54,41 @@
               </div>
             </div>
           </div>
+          <div class="i-banner">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide rounded-lg">
+                  <img src="assets/img/banner.png" alt="" class="p-2">
+                </li>
+                <li class="glide__slide rounded-lg">
+                  <img src="assets/img/banner.png" alt="" class="p-2">
+                </li>
+                <li class="glide__slide rounded-lg">
+                  <img src="assets/img/banner.png" alt="" class="p-2">
+                </li>
+              </ul>
+            </div>
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+              <button class="glide__bullet" data-glide-dir="=0"></button>
+              <button class="glide__bullet" data-glide-dir="=1"></button>
+              <button class="glide__bullet" data-glide-dir="=2"></button>
+            </div>
+          </div>
+          <div class="i-countries p-2">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <img src="assets/img/banner.png" alt="" class="m-4">
+                </li>
+                <li class="glide__slide">
+                  <img src="assets/img/banner.png" alt="" class="m-4">
+                </li>
+                <li class="glide__slide">
+                  <img src="assets/img/banner.png" alt="" class="m-4">
+                </li>
+              </ul>
+            </div>
+          </div>
           <h1 class="text-2xl text-center">Ваш шедевр готов!</h1>
           <p class="text-xl">
             Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Равным образом начало повседневной работы по формированию позиции обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития. Не следует, однако забывать, что укрепление и развитие структуры в значительной степени обуславливает создание соответствующий условий активизации. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке соответствующий условий активизации. Не следует, однако забывать, что консультация с широким активом позволяет выполнять важные задания по разработке систем массового участия.
@@ -69,8 +104,16 @@
     Повседневная практика показывает, что укрепление и развитие структуры позволяет выполнять важные задания по разработке существенных финансовых и административных условий. Таким образом дальнейшее развитие различных форм деятельности позволяет выполнять важные задания по разработке системы обучения кадров, соответствует насущным потребностям. Задача организации, в особенности же сложившаяся структура организации позволяет выполнять важные задания по разработке дальнейших направлений развития. Значимость этих проблем настолько очевидна, что рамки и место обучения кадров требуют определения и уточнения систем массового участия.
           </p>
         </div>
-        </div>
+      </div>
     </main>
     <script src="main.js"></script>
+    <script src="../node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script>
+      new Glide('.i-banner').mount()
+      new Glide('.i-countries', {
+        before: 0,
+        after: 10
+      })
+    </script>
   </body>
 </html>

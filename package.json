@@ -16,6 +16,7 @@
     "webpack-cli": "^4.2.0"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.4.1",
     "autoprefixer": "^10.0.4",
     "lodash": "^4.17.20",
     "postcss": "^8.1.10",
